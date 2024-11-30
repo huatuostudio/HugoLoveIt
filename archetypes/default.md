@@ -4,7 +4,7 @@ subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-author: ""
+author: {{ .Site.Params.author }}
 authorLink: ""
 description: ""
 license: ""
